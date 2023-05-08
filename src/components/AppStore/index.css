@@ -1,0 +1,45 @@
+/* Write your CSS here */
+* {
+  margin: 0px;
+}
+.store-container {
+  background-image: linear-gradient(to top, #ace0f9, #fff1eb);
+  height: 100vh;
+  font-family: Bree serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.search-input-container {
+  display: flex;
+  border-radius: 5px;
+  border: solid 1px;
+  width: 20%;
+  align-items: center;
+  margin: 10px;
+  cursor: pointer;
+}
+.search {
+  border: none;
+  outline: none;
+  background-color: #fff1eb;
+  border-radius: 3px;
+  padding: 10px;
+  font-size: 17px;
+  cursor: pointer;
+}
+.image {
+  height: 23px;
+  width: 23px;
+}
+.tab-item {
+  display: flex;
+  align-items: flex-end;
+  padding-left: 10px;
+  margin-top: 25px;
+}
+.app-items-card {
+  display: flex;
+  flex-wrap: wrap;
+  width: 37%;
+}

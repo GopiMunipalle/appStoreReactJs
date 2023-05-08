@@ -1,0 +1,30 @@
+/* Write your CSS here */
+.app-con {
+  background-color: white;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  width: 110px;
+  height: 110px;
+  list-style: none;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app-image-name-con {
+  background-color: white;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  width: 110px;
+  height: 110px;
+  list-style: none;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.app-icon-size {
+  height: 50px;
+  width: 50px;
+}
